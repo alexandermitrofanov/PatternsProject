@@ -43,8 +43,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Concrete\Auto.cs" />
+    <Compile Include="Abstract\IAutoFactory.cs" />
+    <Compile Include="Concrete\Cabriolet.cs" />
+    <Compile Include="Concrete\CabrioletFactory.cs" />
+    <Compile Include="Abstract\ICarShowroom.cs" />
+    <Compile Include="Abstract\ICar.cs" />
+    <Compile Include="Concrete\Dream.cs" />
+    <Compile Include="Concrete\Podium.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Concrete\Sedan.cs" />
+    <Compile Include="Concrete\SedanFactory.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
